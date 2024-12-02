@@ -7,9 +7,9 @@ print('\n'.join(str(i ** 2) for i in range(int(input()))))
 print()"""
 print(' '.join([str(int(i) ** 2) for i in input().split() if int(i) % 2 != 0 and i[-1] != '9']))
 
-name = "Аркадий"
+name = "АРКАДИЙ"
 age = 14
-print(f"Меня зовут {name} Мне {age} лет.")
+print(f"МЕНЯ ЗОВУТ {name} МНЕ {age} ЛЕТ.")
 print("Меня зовут " + name + " Мне " + str(age) + " лет.")
 print("Меня зовут", name, "Мне", age, "лет.")
 
