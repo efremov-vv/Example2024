@@ -7,16 +7,16 @@ print('\n'.join(str(i ** 2) for i in range(int(input()))))
 print()"""
 print(' '.join([str(int(i) ** 2) for i in input().split() if int(i) % 2 != 0 and i[-1] != '9']))
 
-name = "АРКАДИЙ"
+name = "Аркадий"
 age = 14
-print(f"МЕНЯ ЗОВУТ {name} МНЕ {age} ЛЕТ.")
+print(f"Меня зовут {name} Мне {age} лет.")
 print("Меня зовут " + name + " Мне " + str(age) + " лет.")
 print("Меня зовут", name, "Мне", age, "лет.")
 
 s = "Зелёный клён"
 s = s.strip()
 s = s.lower()
-s = s.replace('ё','е')
+s = s.replace('ё', 'е')
 print(s)
 
 s = "Зелёный клён"
